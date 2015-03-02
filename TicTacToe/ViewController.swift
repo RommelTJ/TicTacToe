@@ -10,43 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func doButton0(sender: AnyObject) {
-        
+    @IBOutlet weak var button0: UIButton!
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    @IBOutlet weak var button4: UIButton!
+    @IBOutlet weak var button5: UIButton!
+    @IBOutlet weak var button6: UIButton!
+    @IBOutlet weak var button7: UIButton!
+    @IBOutlet weak var button8: UIButton!
+    
+    @IBAction func doButton(sender: AnyObject) {
+        var image = UIImage(named: "tictactoe_cross.png")
+        sender.setImage(image, forState: .Normal)
     }
-    
-    @IBAction func doButton1(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func doButton2(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func doButton3(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func doButton4(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func doButton5(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func doButton6(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func doButton7(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func doButton8(sender: AnyObject) {
-        
-    }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

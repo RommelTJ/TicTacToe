@@ -33,7 +33,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doButton0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cA5-dE-Y3X"/>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FRR-BE-PTu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bva-rI-8TR">
@@ -46,20 +46,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3i-Ub-g9m"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znB-Ea-rTg">
-                                <rect key="frame" x="388" y="109" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="57N-St-AJA"/>
-                                    <constraint firstAttribute="height" constant="100" id="snV-Da-nsz"/>
-                                </constraints>
-                                <state key="normal" image="tictactoe_circle.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XWp-5e-txq"/>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xSY-Ao-rc2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsx-LO-L7u">
@@ -72,7 +59,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KkN-3q-QUf"/>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcx-Uz-Ean"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bp-c8-IHq">
@@ -85,7 +72,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G1M-sX-C5D"/>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Yt-il-Qd6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POX-jh-Xtf">
@@ -98,7 +85,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="obk-wE-tYt"/>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jRr-xE-Nmp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWg-fh-Gil">
@@ -111,7 +98,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doButton8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fO3-hE-YR5"/>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6LO-8G-o2P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXY-Xk-toq">
@@ -124,7 +111,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doButton7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wS-6W-dk5"/>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7OR-fd-zQh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaK-61-Hdc">
@@ -137,7 +124,20 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doButton6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zg3-b5-ySS"/>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SzN-u2-6Ka"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znB-Ea-rTg">
+                                <rect key="frame" x="388" y="109" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="57N-St-AJA"/>
+                                    <constraint firstAttribute="height" constant="100" id="snV-Da-nsz"/>
+                                </constraints>
+                                <state key="normal" image="tictactoe_circle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VW4-eB-zuw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -165,6 +165,17 @@
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="bottom" secondItem="gXY-Xk-toq" secondAttribute="bottom" constant="112" id="zP0-xR-Vow"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button0" destination="M6w-3K-hFN" id="mWW-HE-fYu"/>
+                        <outlet property="button1" destination="bva-rI-8TR" id="4zT-oA-wkg"/>
+                        <outlet property="button2" destination="znB-Ea-rTg" id="7Wc-ft-dWK"/>
+                        <outlet property="button3" destination="Xsx-LO-L7u" id="HAh-Vm-KWs"/>
+                        <outlet property="button4" destination="1Bp-c8-IHq" id="rua-vg-3zI"/>
+                        <outlet property="button5" destination="POX-jh-Xtf" id="eze-dy-fMd"/>
+                        <outlet property="button6" destination="SaK-61-Hdc" id="hQ9-hF-AM7"/>
+                        <outlet property="button7" destination="gXY-Xk-toq" id="uNa-0m-HrF"/>
+                        <outlet property="button8" destination="GWg-fh-Gil" id="97U-yE-UVT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
