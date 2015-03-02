@@ -27,7 +27,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        button0.setImage(UIImage(named: ""), forState: .Normal)
+        button1.setImage(UIImage(named: ""), forState: .Normal)
+        button2.setImage(UIImage(named: ""), forState: .Normal)
+        button3.setImage(UIImage(named: ""), forState: .Normal)
+        button4.setImage(UIImage(named: ""), forState: .Normal)
+        button5.setImage(UIImage(named: ""), forState: .Normal)
+        button6.setImage(UIImage(named: ""), forState: .Normal)
+        button7.setImage(UIImage(named: ""), forState: .Normal)
+        button8.setImage(UIImage(named: ""), forState: .Normal)
     }
 
     override func didReceiveMemoryWarning() {
