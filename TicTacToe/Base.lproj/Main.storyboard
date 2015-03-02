@@ -16,14 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tictactoe_board.png" translatesAutoresizingMaskIntoConstraints="NO" id="b2a-WY-SvH">
+                            <imageView userInteractionEnabled="NO" tag="11" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tictactoe_board.png" translatesAutoresizingMaskIntoConstraints="NO" id="b2a-WY-SvH">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="600" id="3rq-t4-06R"/>
                                     <constraint firstAttribute="height" constant="600" id="Kg2-sE-3te"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6w-3K-hFN">
+                            <button opaque="NO" tag="0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6w-3K-hFN">
                                 <rect key="frame" x="108" y="109" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="0qx-Hr-OOw"/>
@@ -36,7 +36,7 @@
                                     <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FRR-BE-PTu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bva-rI-8TR">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bva-rI-8TR">
                                 <rect key="frame" x="250" y="109" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="H6I-Vy-Tfe"/>
@@ -49,85 +49,7 @@
                                     <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xSY-Ao-rc2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsx-LO-L7u">
-                                <rect key="frame" x="108" y="250" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="IKd-9Z-iMv"/>
-                                    <constraint firstAttribute="height" constant="100" id="wUc-XR-de1"/>
-                                </constraints>
-                                <state key="normal" image="tictactoe_circle.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcx-Uz-Ean"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bp-c8-IHq">
-                                <rect key="frame" x="250" y="250" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="hz3-yU-xsm"/>
-                                    <constraint firstAttribute="height" constant="100" id="iYT-Cg-cNH"/>
-                                </constraints>
-                                <state key="normal" image="tictactoe_circle.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Yt-il-Qd6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POX-jh-Xtf">
-                                <rect key="frame" x="388" y="250" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="Nb1-2J-O50"/>
-                                    <constraint firstAttribute="width" constant="100" id="VI0-Ak-q53"/>
-                                </constraints>
-                                <state key="normal" image="tictactoe_circle.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jRr-xE-Nmp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWg-fh-Gil">
-                                <rect key="frame" x="388" y="388" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="7j7-wH-7P1"/>
-                                    <constraint firstAttribute="width" constant="100" id="oaH-bA-43U"/>
-                                </constraints>
-                                <state key="normal" image="tictactoe_circle.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6LO-8G-o2P"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXY-Xk-toq">
-                                <rect key="frame" x="250" y="388" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="UxT-C7-I2G"/>
-                                    <constraint firstAttribute="width" constant="100" id="ZcU-XY-6ej"/>
-                                </constraints>
-                                <state key="normal" image="tictactoe_circle.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7OR-fd-zQh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaK-61-Hdc">
-                                <rect key="frame" x="108" y="388" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="EZd-sW-WA2"/>
-                                    <constraint firstAttribute="height" constant="100" id="a7O-wE-p5f"/>
-                                </constraints>
-                                <state key="normal" image="tictactoe_circle.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SzN-u2-6Ka"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znB-Ea-rTg">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znB-Ea-rTg">
                                 <rect key="frame" x="388" y="109" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="57N-St-AJA"/>
@@ -140,12 +62,107 @@
                                     <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VW4-eB-zuw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsx-LO-L7u">
+                                <rect key="frame" x="108" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="IKd-9Z-iMv"/>
+                                    <constraint firstAttribute="height" constant="100" id="wUc-XR-de1"/>
+                                </constraints>
+                                <state key="normal" image="tictactoe_circle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcx-Uz-Ean"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bp-c8-IHq">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="hz3-yU-xsm"/>
+                                    <constraint firstAttribute="height" constant="100" id="iYT-Cg-cNH"/>
+                                </constraints>
+                                <state key="normal" image="tictactoe_circle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Yt-il-Qd6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POX-jh-Xtf">
+                                <rect key="frame" x="388" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Nb1-2J-O50"/>
+                                    <constraint firstAttribute="width" constant="100" id="VI0-Ak-q53"/>
+                                </constraints>
+                                <state key="normal" image="tictactoe_circle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jRr-xE-Nmp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWg-fh-Gil">
+                                <rect key="frame" x="388" y="388" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="7j7-wH-7P1"/>
+                                    <constraint firstAttribute="width" constant="100" id="oaH-bA-43U"/>
+                                </constraints>
+                                <state key="normal" image="tictactoe_circle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6LO-8G-o2P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXY-Xk-toq">
+                                <rect key="frame" x="250" y="388" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="UxT-C7-I2G"/>
+                                    <constraint firstAttribute="width" constant="100" id="ZcU-XY-6ej"/>
+                                </constraints>
+                                <state key="normal" image="tictactoe_circle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7OR-fd-zQh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaK-61-Hdc">
+                                <rect key="frame" x="108" y="388" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="EZd-sW-WA2"/>
+                                    <constraint firstAttribute="height" constant="100" id="a7O-wE-p5f"/>
+                                </constraints>
+                                <state key="normal" image="tictactoe_circle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SzN-u2-6Ka"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Winner is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZu-K8-cfd">
+                                <rect key="frame" x="114" y="176" width="372" height="247"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFG-bB-nKW">
+                                <rect key="frame" x="241" y="28" width="119" height="30"/>
+                                <state key="normal" title="Play again?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6nM-un-F9W"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="POX-jh-Xtf" firstAttribute="centerY" secondItem="b2a-WY-SvH" secondAttribute="centerY" id="4To-vp-71q"/>
                             <constraint firstAttribute="centerX" secondItem="b2a-WY-SvH" secondAttribute="centerX" id="Ag9-cY-Gav"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="centerY" secondItem="Xsx-LO-L7u" secondAttribute="centerY" id="BhO-cE-MUA"/>
+                            <constraint firstAttribute="centerY" secondItem="CZu-K8-cfd" secondAttribute="centerY" id="By8-wd-h2k"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="bottom" secondItem="SaK-61-Hdc" secondAttribute="bottom" constant="112" id="CE4-IG-qKe"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="trailing" secondItem="znB-Ea-rTg" secondAttribute="trailing" constant="112" id="GFY-Ib-lrO"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="centerX" secondItem="gXY-Xk-toq" secondAttribute="centerX" id="MVD-KY-Ljo"/>
@@ -154,14 +171,17 @@
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="centerX" secondItem="1Bp-c8-IHq" secondAttribute="centerX" id="UDG-CC-zYh"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="centerX" secondItem="bva-rI-8TR" secondAttribute="centerX" id="Wxd-uB-obx"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="leading" secondItem="SaK-61-Hdc" secondAttribute="leading" constant="-108" id="ebi-5r-wqp"/>
+                            <constraint firstItem="VFG-bB-nKW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="eog-2l-gvd"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="top" secondItem="bva-rI-8TR" secondAttribute="top" constant="-109" id="etq-Id-rsa"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="top" secondItem="znB-Ea-rTg" secondAttribute="top" constant="-109" id="hJS-BW-eg2"/>
+                            <constraint firstAttribute="centerX" secondItem="CZu-K8-cfd" secondAttribute="centerX" id="hhn-CX-DcS"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="top" secondItem="M6w-3K-hFN" secondAttribute="top" constant="-109" id="i1h-EA-GUt"/>
                             <constraint firstAttribute="centerY" secondItem="b2a-WY-SvH" secondAttribute="centerY" id="i3H-aE-tWi"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="centerY" secondItem="1Bp-c8-IHq" secondAttribute="centerY" id="jU9-6o-pGI"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="leading" secondItem="M6w-3K-hFN" secondAttribute="leading" constant="-108" id="kQH-5j-ZTI"/>
                             <constraint firstItem="GWg-fh-Gil" firstAttribute="trailing" secondItem="b2a-WY-SvH" secondAttribute="trailing" constant="-112" id="rXJ-lZ-G3w"/>
                             <constraint firstItem="POX-jh-Xtf" firstAttribute="trailing" secondItem="b2a-WY-SvH" secondAttribute="trailing" constant="-112" id="uFd-ba-8mh"/>
+                            <constraint firstAttribute="centerX" secondItem="VFG-bB-nKW" secondAttribute="centerX" id="wgd-1S-COz"/>
                             <constraint firstItem="b2a-WY-SvH" firstAttribute="bottom" secondItem="gXY-Xk-toq" secondAttribute="bottom" constant="112" id="zP0-xR-Vow"/>
                         </constraints>
                     </view>
@@ -175,6 +195,8 @@
                         <outlet property="button6" destination="SaK-61-Hdc" id="hQ9-hF-AM7"/>
                         <outlet property="button7" destination="gXY-Xk-toq" id="uNa-0m-HrF"/>
                         <outlet property="button8" destination="GWg-fh-Gil" id="97U-yE-UVT"/>
+                        <outlet property="playAgainButton" destination="VFG-bB-nKW" id="Z29-Ad-Mfd"/>
+                        <outlet property="winnerLabel" destination="CZu-K8-cfd" id="u3X-ej-kK1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
